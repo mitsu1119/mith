@@ -1,0 +1,28 @@
+title = "Hugo Learn Documentation"
+theme = "hugo-theme-learn"
+themesdir = "themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  description = "Documentation for Hugo Learn Theme"
+  author = "Mathieu Cornic"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  disableMermaid = false
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Documentation for Hugo Learn Theme"
+weight = 1
+languageName = "Japanese"
+landingPageURL = "/ja"
+landingPageName = "<i class='fas fa-home'></i> Home"
+
