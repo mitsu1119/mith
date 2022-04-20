@@ -2,7 +2,8 @@ title = "Hugo Learn Documentation"
 theme = "hugo-theme-learn"
 themesdir = "themes"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir = true
+publishDir = "../docs"
 
 [params]
   description = "Documentation for Hugo Learn Theme"
